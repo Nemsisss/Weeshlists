@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "yesevaone";
+  src: url("fonts/YesevaOne-Regular.ttf");
+}
+@font-face {
+  font-family: "prata";
+  src: url("fonts/Prata-Regular.ttf");
+}
+@font-face {
+  font-family: "courier";
+  src: url("fonts/Courier_Prime.ttf");
+}
+@font-face {
+  font-family: "regular";
+  src: url("fonts/regular.otf");
+}
+
+#footer {
+  margin-top: 70px;
+  font-family: "regular", Arial, Arial;
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  height: 40px;
+  line-height: 40px; /*the height of a single line of text*/
+  width: 100%;
+}
+#header {
+  background-image: url("imgs/mymind-XUlsF9LYeVk-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  height: 500px;
+}
+#nav-bar {
+  background-color: #000 !important;
+  font-size: large !important;
+  /* z-index: 1; */
+}
+.nav-link {
+  color: white !important;
+  font-family: regular, Arial, Arial;
+}
+
+.nav-link:hover {
+  color: #ff792b !important;
+  font-family: regular, Arial, Arial;
+}
+
+.active {
+  color: #ff792b !important;
+}
+.dropdown-menu {
+  background-color: black;
+  border: 1px solid white;
+}
+.dropdown-item {
+  color: white;
+  font-family: regular, Arial, Arial;
+}
+.dropdown-item:hover {
+  color: #ff792b;
+  background-color: black;
+}
+.btn {
+  font-family: regular, Arial, Arial;
+}
