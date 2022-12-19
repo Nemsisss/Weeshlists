@@ -2,7 +2,7 @@
 require './config/config.php';
     if ( !isset($_SESSION['logged_in']) || $_SESSION['logged_in'] == false ) {
       // User IS NOT logged in.
-      header('Location: ./landingPage.html');
+      header('Location: ./index.html');
     }
 if(!isset($_GET['item_id']) || trim($_GET['item_id'])=='')
 {
