@@ -2,7 +2,7 @@
 require './config/config.php';
     if ( !isset($_SESSION['logged_in']) || $_SESSION['logged_in'] == false ) {
       // User IS NOT logged in.
-      header('Location: ./index.html');
+      header('Location: ./index.php');
     }
 
 // DB Connection.

@@ -2,7 +2,7 @@
 require './config/config.php';
 if ( !isset($_SESSION['logged_in']) || $_SESSION['logged_in'] == false ) {
   // User IS NOT logged in.
-  header('Location: ./index.html');
+  header('Location: ./index.php');
 }
 if(!isset($_POST['item_id']) || trim($_POST['item_id'])=='' || !isset($_POST['itemurl']) || trim($_POST['itemurl'])=='' || !isset($_POST['category_id']) || trim($_POST['category_id'])==''|| !isset($_POST['itemName']) || trim($_POST['itemName'])=='' || !isset($_POST['user_id']) || trim($_POST['user_id'])=='')
 {
