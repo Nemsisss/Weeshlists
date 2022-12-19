@@ -266,7 +266,7 @@ if ( !isset($_SESSION['logged_in']) || $_SESSION['logged_in'] == false )
     </div>
 
     <div id="footer">Weeshlists by Nemsiss Shahbazian &copy; 2022</div>
-    <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script>
       let limit = 12;
       //populate default recommendations
