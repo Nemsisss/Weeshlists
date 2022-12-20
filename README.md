@@ -1,6 +1,6 @@
 # Weeshlists
 
-Topic and purpose of my site:
+Topic and purpose of my site \n:
 Topic of my site is an app where the user can have all of their favorite/wishlist items in one place, so it’s basically one big Wishlist. It allows the user to manually insert different favorite items from different websites into this app, store them in it and access/update/delete them.
 Instructions on how my website works:
 • In order to use the website, the user has to either login (if they have an account) or sign up (if they don’t have an account).
