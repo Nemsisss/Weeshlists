@@ -1,6 +1,7 @@
 # Weeshlists
 
-Topic and purpose of my site :
+https://weeshlists.herokuapp.com/
+Topic and purpose of my webapp :
 
 Topic of my site is an app where the user can have all of their favorite/wishlist items in one place, so it’s basically one big Wishlist. It allows the user to manually insert different favorite items from different websites into this app, store them in it and access/update/delete them.
 Instructions on how my website works:
